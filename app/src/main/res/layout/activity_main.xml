@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.viewpager.widget.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/viewPager_id">
+
+    <androidx.viewpager.widget.PagerTitleStrip
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#D6D6D6"
+        android:paddingBottom="15dp" />
+
+</androidx.viewpager.widget.ViewPager>
